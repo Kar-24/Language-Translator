@@ -1,0 +1,106 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a4c8ff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Centered translator box */
+.App {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Input text area */
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+
+/* Language dropdowns */
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.selectors label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+/* Translate button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 30px auto;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056c9;
+}
+
+/* Translated text box */
+.output {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  min-height: 40px;
+  color: #333;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .selectors {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
