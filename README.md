@@ -27,6 +27,7 @@ A simple language translator web application built using the MERN stack (MongoDB
 ○ Project Structure:
 
 language-translator/
+
  ├── backend/        # Flask + Express API
  
  ├── frontend/       # React app
