@@ -28,8 +28,11 @@ A simple language translator web application built using the MERN stack (MongoDB
 
 language-translator/
  ├── backend/        # Flask + Express API
+ 
  ├── frontend/       # React app
+ 
  ├── package.json
+ 
  └── README.md
 
 ○ How It Works
